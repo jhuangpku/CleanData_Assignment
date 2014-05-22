@@ -24,7 +24,6 @@ merge_data<-merge(sub_data, act_name, by.x="Y", by.y = "V1")[,2:82]
 #Appropriately labels the data set with descriptive activity names. 
 
 
-index = 1
 new_names = sapply(names(merge_data), function(x){x=gsub("-","_", x)
                                                   x=gsub("\\(", "", x)
                                                   x=gsub("\\)", "", x)})
