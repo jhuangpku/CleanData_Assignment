@@ -15,7 +15,9 @@ We do the following things to get the clean_data:
 features in clean_data.txt 
 * "subject": 1-30, means the number of people who participant in this experiment
 * "activity": record activity category for subject, has six levels:WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-*he features below means every mean for a movement feature for the subject and activity giving above
+
+The features below means every mean for a movement feature for the subject and activity giving above
+
 * "tBodyAcc_mean_X" 
 * "tBodyAcc_mean_Y"
 * "tBodyAcc_mean_Z"
